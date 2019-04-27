@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: Build and test
-          commantd: ./gradlew -Pcoverage clean coveralls
+          command: ./gradlew -Pcoverage clean coveralls
