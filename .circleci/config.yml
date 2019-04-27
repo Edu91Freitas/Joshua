@@ -7,5 +7,5 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Build and test
-        commantd: ./gradlew -Pcoverage clean coveralls
+          name: Build and test
+          commantd: ./gradlew -Pcoverage clean coveralls
